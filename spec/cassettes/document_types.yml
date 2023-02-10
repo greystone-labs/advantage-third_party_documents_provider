@@ -1,0 +1,537 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://onbase:9090/v1/DocumentTypes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Api-Key:
+      - '1234'
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 10 Feb 2023 14:30:01 GMT
+      Server:
+      - Kestrel
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '[{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"3
+        Years Property Financials {FHAMAP}","documentTypeId":4248},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"A.5.8.1 {FHAMAP}","documentTypeId":4164},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"A.5.8.3 {FHAMAP}","documentTypeId":4166},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Accessibility
+        Codes Cert {FHAMAP}","documentTypeId":4167},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Actuarial Study {FHALEAN}","documentTypeId":4478},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Administrator
+        License {FHALEAN}","documentTypeId":4468},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Administrator
+        Resume {FHALEAN}","documentTypeId":4467},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"AIA
+        A201 {FHAMAP}","documentTypeId":4168},{"documentTypeGroup":"FHA Real Estate
+        Lending Documents","documentTypeGroupId":157,"documentTypeName":"AL - Third
+        Party Request Form","documentTypeId":3514},{"documentTypeGroup":"FHA Real
+        Estate Lending Documents","documentTypeGroupId":157,"documentTypeName":"AL
+        - Third Party Request Supporting Documentation","documentTypeId":3515},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"ALTA Survey and
+        Surveyors Report {FHAMAP}","documentTypeId":4169},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Amenities {FHAMAP}","documentTypeId":4170},{"documentTypeGroup":"Accounting
+        - AP","documentTypeGroupId":134,"documentTypeName":"AP - Charity Match Request","documentTypeId":3454},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Application Fee
+        {FHAMAP}","documentTypeId":4171},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Appraisal
+        Final Report {FHALEAN}","documentTypeId":4186},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Appraisal Questionnaire
+        {FHALEAN}","documentTypeId":4174},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Appraisal
+        Tax Bill {FHALEAN}","documentTypeId":4175},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"AR Cash Flow Diagram
+        {FHALEAN}","documentTypeId":4484},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"AR
+        Loan Note and all Amendments {FHALEAN}","documentTypeId":4479},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Architect & Borrower
+        IOI {FHAMAP}","documentTypeId":4172},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Architect
+        License {FHAMAP}","documentTypeId":4250},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Architect
+        Resume {FHAMAP}","documentTypeId":4249},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Architects
+        Professional Liability Insurance {FHAMAP}","documentTypeId":4251},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"As is Sketch
+        Plans {FHAMAP}","documentTypeId":4252},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"AST
+        Compliance Letter {FHALEAN}","documentTypeId":4194},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"B108 {FHAMAP}","documentTypeId":4253},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"B108 Amendment
+        {FHAMAP}","documentTypeId":4254},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower
+        Agings of AP YTD {FHALEAN}","documentTypeId":4204},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Agings
+        of AR YTD {FHALEAN}","documentTypeId":4203},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Articles
+        of Formation {FHALEAN}","documentTypeId":4196},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Balance
+        Sheet PY1 {FHALEAN}","documentTypeId":4207},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Balance
+        Sheet PY2 {FHALEAN}","documentTypeId":4210},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Balance
+        Sheet PY3 {FHALEAN}","documentTypeId":4213},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Balance
+        Sheet YTD {FHALEAN}","documentTypeId":4202},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Borrower Budget {FHAMAP}","documentTypeId":4255},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Consolidated
+        Certification {FHALEAN}","documentTypeId":4200},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Borrower Construction
+        and Lease Up Schedule {FHAMAP}","documentTypeId":4256},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Borrower EIN
+        {FHAMAP}","documentTypeId":4257},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower
+        Entity Credit Report {FHALEAN}","documentTypeId":4201},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Financial
+        Cert PY1 {FHALEAN}","documentTypeId":4209},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Financial
+        Cert PY2 {FHALEAN}","documentTypeId":4212},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Financial
+        Cert PY3 {FHALEAN}","documentTypeId":4215},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Financial
+        Cert YTD {FHALEAN}","documentTypeId":4206},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Financials
+        PY1 {FHALEAN}","documentTypeId":4208},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower
+        Financials PY2 {FHALEAN}","documentTypeId":4211},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Financials
+        PY3 {FHALEAN}","documentTypeId":4214},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower
+        Financials YTD {FHALEAN}","documentTypeId":4205},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Borrower HUD
+        Experience {FHAMAP}","documentTypeId":4258},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Borrower Income/Expense
+        Projections/Proforma {FHAMAP}","documentTypeId":4259},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Borrower Lease-Up/Absorption
+        Estimates {FHAMAP}","documentTypeId":4260},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Operating
+        Agreement {FHALEAN}","documentTypeId":4198},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Borrower Organizational
+        Chart {FHALEAN}","documentTypeId":4195},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Borrower
+        Organizational Chart {FHAMAP}","documentTypeId":4261},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Borrower Organizational
+        Documents {FHAMAP}","documentTypeId":4262},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Borrower
+        Proforma {FHAMAP}","documentTypeId":4263},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Borrower
+        Resolutions {FHALEAN}","documentTypeId":4199},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Budget {FHAMAP}","documentTypeId":4264},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Builder''s Risk
+        Coverage {FHAMAP}","documentTypeId":4265},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Building
+        Code Compliance {FHALEAN}","documentTypeId":4453},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Capital Improvements
+        {FHAMAP}","documentTypeId":4266},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Cash
+        to Close {FHAMAP}","documentTypeId":4267},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Census
+        PY1 {FHALEAN}","documentTypeId":4460},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Census
+        PY2 {FHALEAN}","documentTypeId":4461},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Census
+        PY3 {FHALEAN}","documentTypeId":4462},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Census
+        YTD {FHALEAN}","documentTypeId":4459},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Certification
+        to Plans and Specs {FHAMAP}","documentTypeId":4268},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"City Redevelopment
+        Plan {FHAMAP}","documentTypeId":4269},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"City,
+        State or Community Support {FHAMAP}","documentTypeId":4270},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil 5H.1 {FHAMAP}","documentTypeId":4271},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil 5H.3 {FHAMAP}","documentTypeId":4272},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil B108 {FHAMAP}","documentTypeId":4273},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil B108 Amendment
+        {FHAMAP}","documentTypeId":4274},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil
+        Company Brochure {FHAMAP}","documentTypeId":4275},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil Libility
+        Insurance ACORD {FHAMAP}","documentTypeId":4276},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil License
+        {FHAMAP}","documentTypeId":4277},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil
+        Resume {FHAMAP}","documentTypeId":4278},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Civil
+        Water Pressure Letter","documentTypeId":4279},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Commercial Components
+        {FHAMAP}","documentTypeId":4281},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Commercial
+        Lease {FHAMAP}","documentTypeId":4282},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Commercial
+        Space {FHAMAP}","documentTypeId":4280},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Completed
+        CAPEX {FHALEAN}","documentTypeId":4448},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Construction
+        Budget and Hard Construction Period {FHAMAP}","documentTypeId":4283},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Contact List
+        {FHALEAN}","documentTypeId":4165},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"COO
+        or Final Inspection Report {FHAMAP}","documentTypeId":4284},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"COVID Certification
+        {FHALEAN}","documentTypeId":4173},{"documentTypeGroup":"Conference Requests","documentTypeGroupId":156,"documentTypeName":"CR
+        - Conference Request","documentTypeId":3478},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Current Facility
+        License {FHALEAN}","documentTypeId":4451},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Demolition
+        {FHAMAP}","documentTypeId":4285},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Deposit
+        Account Control Agreement {FHALEAN}","documentTypeId":4486},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Deposit Account
+        Instructions and Service Agreements {FHALEAN}","documentTypeId":4487},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Developers Agreement","documentTypeId":4286},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Development Status
+        {FHAMAP}","documentTypeId":4287},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Draft
+        Partnership Agreement with Tax Credit Investor {FHAMAP}","documentTypeId":4288},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Drawings and
+        Specs {FHAMAP}","documentTypeId":4289},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Early
+        Warning Registration {FHALEAN}","documentTypeId":4189},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Elevator Inspection
+        {FHALEAN}","documentTypeId":4183},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Environmental
+        Issues {FHAMAP}","documentTypeId":4290},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Evacuation
+        and Relocation Plan {FHALEAN}","documentTypeId":4190},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Evacuation Route
+        {FHALEAN}","documentTypeId":4191},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"FF&E
+        {FHAMAP}","documentTypeId":4291},{"documentTypeGroup":"FHA Real Estate Lending
+        Documents","documentTypeGroupId":157,"documentTypeName":"FHA - EMAD Request","documentTypeId":4080},{"documentTypeGroup":"FHA
+        Real Estate Lending Documents","documentTypeGroupId":157,"documentTypeName":"FHA
+        - EMAD Supporting Document","documentTypeId":4081},{"documentTypeGroup":"FHA
+        Real Estate Lending Documents","documentTypeGroupId":157,"documentTypeName":"FHA
+        - Third Party Engagement Request Form","documentTypeId":3483},{"documentTypeGroup":"FHA
+        Real Estate Lending Documents","documentTypeGroupId":157,"documentTypeName":"FHA
+        - Third Party Engagement Supporting Document","documentTypeId":3484},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"FHA-insured
+        facilities on the AR loan {FHALEAN}","documentTypeId":4483},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Fire Department
+        Inspection {FHALEAN}","documentTypeId":4455},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Flood Zone {FHAMAP}","documentTypeId":4292},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Floor Plan {FHALEAN}","documentTypeId":4180},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Floor Plans &
+        Unit Mix {FHAMAP}","documentTypeId":4294},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Floor
+        Plans {FHAMAP}","documentTypeId":4293},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Form
+        HUD-2530 {FHAMAP}","documentTypeId":4295},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Form
+        HUD-3433 {FHAMAP}","documentTypeId":4296},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Foundation
+        Cert {FHAMAP}","documentTypeId":4297},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC
+        2013-Supp {FHAMAP}","documentTypeId":4298},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC
+        2328 {FHAMAP}","documentTypeId":4299},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC
+        2530 or APPS {FHAMAP}","documentTypeId":4300},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"GC 50-75 {FHAMAP}","documentTypeId":4301},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC 5372 {FHAMAP}","documentTypeId":4302},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC AIA 305 {FHAMAP}","documentTypeId":4303},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC and Borrower
+        IOI {FHAMAP}","documentTypeId":4304},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC
+        Bonding Capacity {FHAMAP}","documentTypeId":4305},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC Business Concerns
+        and Credit Reports {FHAMAP}","documentTypeId":4306},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC Byrd Amendment
+        {FHAMAP}","documentTypeId":4307},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC
+        Consolidated Certification {FHAMAP}","documentTypeId":4308},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC Credit Release
+        {FHAMAP}","documentTypeId":4309},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC
+        Current License {FHAMAP}","documentTypeId":4310},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC EEOC {FHAMAP}","documentTypeId":4311},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC EIN {FHAMAP}","documentTypeId":4312},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC Financial
+        Certification {FHAMAP}","documentTypeId":4313},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"GC Financials {FHAMAP}","documentTypeId":4314},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC Liability
+        Insurance {FHAMAP}","documentTypeId":4315},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"GC
+        Schedule of Jobs in Progress {FHAMAP}","documentTypeId":4316},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"General Contractor
+        Resume {FHAMAP}","documentTypeId":4317},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Geotech
+        Cert {FHAMAP}","documentTypeId":4318},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Grants/Loan
+        {FHAMAP}","documentTypeId":4319},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Green
+        Data Collection Plan {FHAMAP}","documentTypeId":4320},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Green Features
+        {FHAMAP}","documentTypeId":4321},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Green
+        Registration for Green Standard {FHAMAP}","documentTypeId":4323},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Green Resume
+        & Qualifications & Copy of Contract {FHAMAP}","documentTypeId":4324},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Green SEDI Report
+        {FHAMAP}","documentTypeId":4325},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Green
+        Standard/Checklist {FHAMAP}","documentTypeId":4322},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Green Summary
+        of Energy Consumption {FHAMAP}","documentTypeId":4326},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Green Summary
+        of Energy Design {FHAMAP}","documentTypeId":4327},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Ground Lease
+        {FHAMAP}","documentTypeId":4328},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Guarantees
+        {FHALEAN}","documentTypeId":4482},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"HAP
+        Contract {FHAMAP}","documentTypeId":4329},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Historic
+        Preservation {FHAMAP}","documentTypeId":4330},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"HUD 3433 - Nonprofit
+        Sponsor","documentTypeId":4364},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"HUD
+        90020 - Financing Certification {FHALEAN}","documentTypeId":4488},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"HUD 92322 -
+        Intercreditor Agreement {FHALEAN}","documentTypeId":4485},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"HUD 92323 -
+        Operator Security Agreement {FHALEAN}","documentTypeId":4480},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"HUD 9807 {FHAMAP}","documentTypeId":4333},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"HUD 9832 {FHAMAP}","documentTypeId":4331},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"HUD 9839 {FHAMAP}","documentTypeId":4332},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"ID & Cert of
+        Eligible Limited Liability Investor {FHAMAP}","documentTypeId":4334},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Insurance {FHAMAP}","documentTypeId":4335},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Insurance ACORDS
+        {FHALEAN}","documentTypeId":4474},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Insurance
+        Question Form {FHALEAN}","documentTypeId":4472},{"documentTypeGroup":"Greystone
+        IT","documentTypeGroupId":150,"documentTypeName":"IT - Account Creation Form","documentTypeId":3569},{"documentTypeGroup":"Greystone
+        IT","documentTypeGroupId":150,"documentTypeName":"IT - FHA Vendor Suspension","documentTypeId":3512},{"documentTypeGroup":"Greystone
+        IT","documentTypeGroupId":150,"documentTypeName":"IT - Marketing Promo Item
+        Request","documentTypeId":3509},{"documentTypeGroup":"Greystone IT","documentTypeGroupId":150,"documentTypeName":"IT
+        - Marketing Promo Item Request Attachments","documentTypeId":3511},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Land Use Restrictions
+        {FHAMAP}","documentTypeId":4336},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Last
+        Arms Length Transaction Price {FHAMAP}","documentTypeId":4337},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Leases for Audit
+        {FHAMAP}","documentTypeId":4338},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Lease-Up
+        Budget {FHALEAN}","documentTypeId":4457},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Loan
+        Prepayment Request {FHALEAN}","documentTypeId":4446},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"LURA {FHAMAP}","documentTypeId":4339},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management 92013-Supp
+        {FHAMAP}","documentTypeId":4340},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management
+        Agent 2530 or APPS {FHAMAP}","documentTypeId":4342},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        AFHMP {FHAMAP}","documentTypeId":4343},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Management
+        Agent Articles of Formation {FHALEAN}","documentTypeId":4434},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        Brokers License {FHAMAP}","documentTypeId":4344},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Management Agent
+        Cosolidated Certification {FHALEAN}","documentTypeId":4440},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        Credit Release {FHAMAP}","documentTypeId":4345},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Management Agent
+        Credit Report - OBC {FHALEAN}","documentTypeId":4441},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        EIN {FHAMAP}","documentTypeId":4346},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management
+        Agent Employee Dishonesty Insurance {FHAMAP}","documentTypeId":4347},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        HUD Experience {FHAMAP}","documentTypeId":4348},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Management Agent
+        Operating Agreement {FHALEAN}","documentTypeId":4435},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Management Agent
+        Organizational Chart {FHALEAN}","documentTypeId":4433},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        Organizational Chart {FHAMAP}","documentTypeId":4349},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        Orgnizational Chart {FHAMAP}","documentTypeId":4350},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        Resident Complaints {FHAMAP}","documentTypeId":4351},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Management Agent
+        Resolutions {FHALEAN}","documentTypeId":4436},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Management Agent
+        Resume {FHALEAN}","documentTypeId":4439},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management
+        Agent Resume {FHAMAP}","documentTypeId":4352},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Management Agent
+        Staff Training {FHAMAP}","documentTypeId":4353},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Management Agreement
+        {FHALEAN}","documentTypeId":4438},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management
+        Agreement {FHAMAP}","documentTypeId":4354},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Management Cert {FHALEAN}","documentTypeId":4437},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Plan
+        {FHAMAP}","documentTypeId":4355},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management
+        Plan and Sample Lease {FHAMAP}","documentTypeId":4356},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Management Staffing
+        Schedule {FHAMAP}","documentTypeId":4357},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Market
+        Rate and Affordable Units {FHAMAP}","documentTypeId":4358},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Marketing & Leasing
+        Plan and Budget {FHAMAP}","documentTypeId":4359},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Marketing Brochure
+        {FHALEAN}","documentTypeId":4177},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Markings
+        on Building {FHALEAN}","documentTypeId":4192},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Master Tenant Controlling
+        Participant Certification {FHALEAN}","documentTypeId":4491},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Master Tenant
+        Org Chart {FHALEAN}","documentTypeId":4490},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Medicaid Rate Letter
+        {FHALEAN}","documentTypeId":4464},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Memo
+        of Lease {FHALEAN}","documentTypeId":4245},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"MME List {FHALEAN}","documentTypeId":4181},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Mortgage Statement
+        {FHALEAN}","documentTypeId":4444},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Mortgagor
+        Consolidated Certs {FHAMAP}","documentTypeId":4360},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Name of Project
+        {FHAMAP}","documentTypeId":4362},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Noise
+        Letter {FHAMAP}","documentTypeId":4363},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Note(s)
+        {FHALEAN}","documentTypeId":4447},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Occupancy
+        Percentages {FHAMAP}","documentTypeId":4365},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Offsite Improvements
+        {FHAMAP}","documentTypeId":4366},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operating
+        Budget {FHALEAN}","documentTypeId":4456},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Operating
+        Budget for Initial Lease Up {FHAMAP}","documentTypeId":4367},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operating Leae
+        {FHALEAN}","documentTypeId":4244},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operations
+        Transfer Agreement {FHALEAN}","documentTypeId":4450},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator Agings
+        of AP {FHALEAN}","documentTypeId":4232},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator
+        Agings of AR {FHALEAN}","documentTypeId":4231},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Articles
+        of Formation {FHALEAN}","documentTypeId":4224},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Balance
+        Sheet PY1 {FHALEAN}","documentTypeId":4235},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Balance
+        Sheet PY2 {FHALEAN}","documentTypeId":4238},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Balance
+        Sheet PY3 {FHALEAN}","documentTypeId":4241},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Balance
+        Sheet YTD {FHALEAN}","documentTypeId":4230},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Consolidated
+        Certification {FHALEAN}","documentTypeId":4228},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator Credit
+        Report {FHALEAN}","documentTypeId":4229},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator
+        Estoppel Certificate {FHALEAN}","documentTypeId":4247},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator Financial
+        Cert PY1 {FHALEAN}","documentTypeId":4237},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Financial
+        Cert PY2 {FHALEAN}","documentTypeId":4240},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Financial
+        Cert PY3 {FHALEAN}","documentTypeId":4243},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Financial
+        Cert T-12 {FHALEAN}","documentTypeId":4234},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Operator Financials
+        PY1 {FHALEAN}","documentTypeId":4236},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator
+        Financials PY2 {FHALEAN}","documentTypeId":4239},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator Financials
+        PY3 {FHALEAN}","documentTypeId":4242},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator
+        Operating Agreement {FHALEAN}","documentTypeId":4225},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator Resolutions
+        {FHALEAN}","documentTypeId":4226},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator
+        Resume {FHALEAN}","documentTypeId":4227},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Operator
+        T-12 Financials {FHALEAN}","documentTypeId":4233},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Other Facilities
+        {FHALEAN}","documentTypeId":4475},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Other
+        Funding {FHAMAP}","documentTypeId":4369},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Outstanding
+        Obligation Certification {FHALEAN}","documentTypeId":4442},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent Agings
+        of AP {FHALEAN}","documentTypeId":4421},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent
+        Agings of AR {FHALEAN}","documentTypeId":4420},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Parent Articles of
+        Formation {FHALEAN}","documentTypeId":4412},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Parent Balance Sheet
+        PY1","documentTypeId":4424},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent
+        Balance Sheet PY2 {FHALEAN}","documentTypeId":4427},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent Balance
+        Sheet PY3 {FHALEAN}","documentTypeId":4430},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Parent Balance Sheet
+        YTD","documentTypeId":4419},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent
+        Coslidated Certification {FHALEAN}","documentTypeId":4416},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent Credit
+        Report - OBC","documentTypeId":4418},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent
+        Credit Report {FHALEAN}","documentTypeId":4417},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent Financial
+        Cert PY2 {FHALEAN}","documentTypeId":4429},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Parent Financial
+        Cert PY3 {FHALEAN}","documentTypeId":4432},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Parent Financial
+        Cert YTD {FHALEAN}","documentTypeId":4423},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Parent Financials
+        Cert PY1 {FHALEAN}","documentTypeId":4426},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Parent Financials
+        PY1 {FHALEAN}","documentTypeId":4425},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent
+        Financials PY2 {FHALEAN}","documentTypeId":4428},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent Financials
+        PY3 {FHALEAN}","documentTypeId":4431},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent
+        Operating Agreement {FHALEAN}","documentTypeId":4413},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent Organizational
+        Chart {FHALEAN}","documentTypeId":4411},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent
+        Resolutions {FHALEAN}","documentTypeId":4414},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Parent Resume {FHALEAN}","documentTypeId":4415},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Parent T-12
+        Financials {FHALEAN}","documentTypeId":4422},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Pay off Documents
+        {FHAMAP}","documentTypeId":4370},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Payoff
+        Letters {FHALEAN}","documentTypeId":4443},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"PCNA
+        Final Report {FHALEAN}","documentTypeId":4187},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"PCNA Questionnare
+        {FHALEAN}","documentTypeId":4179},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"PDPM
+        Report {FHALEAN}","documentTypeId":4463},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Personal
+        Financial Statements {FHAMAP}","documentTypeId":4371},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Phase I Final
+        Report {FHALEAN}","documentTypeId":4188},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Phase
+        I Questionnaire {FHALEAN}","documentTypeId":4185},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Photos {FHAMAP}","documentTypeId":4372},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"PILOT Agreement
+        {FHAMAP}","documentTypeId":4373},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Preliminary
+        Site Plan {FHAMAP}","documentTypeId":4374},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Premium - Costs {FHALEAN}","documentTypeId":4477},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Previous Reports
+        {FHAMAP}","documentTypeId":4375},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Princial
+        Articles of Formation {FHALEAN}","documentTypeId":4217},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Principal Business
+        Concerns {FHAMAP}","documentTypeId":4376},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Principal
+        Consolidated Certification {FHALEAN}","documentTypeId":4221},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Principal Credit
+        Report {FHALEAN}","documentTypeId":4222},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Principal
+        Operating Agreement {FHALEAN}","documentTypeId":4218},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Principal Organizational
+        Chart {FHALEAN}","documentTypeId":4216},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Principal
+        Organizational Documents {FHAMAP}","documentTypeId":4368},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Principal Other
+        Business Concerns Credit {FHALEAN}","documentTypeId":4223},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Principal Resolutions
+        {FHALEAN}","documentTypeId":4219},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Principal
+        Resume {FHALEAN}","documentTypeId":4220},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Principal
+        Resumes {FHAMAP}","documentTypeId":4377},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Principals
+        EIN or SSN {FHAMAP}","documentTypeId":4378},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Principals of Mortgagor
+        Consolidated Certs {FHAMAP}","documentTypeId":4379},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Prior Third
+        Party Reports {FHALEAN}","documentTypeId":4182},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Private Water
+        or Sewer {FHAMAP}","documentTypeId":4380},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Professional
+        Liability Insurance Carrier Rating {FHALEAN}","documentTypeId":4473},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Professional
+        Liability Loss History {FHALEAN}","documentTypeId":4476},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Property Debt
+        {FHAMAP}","documentTypeId":4381},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Property
+        Financials {FHAMAP}","documentTypeId":4382},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Proposed CAPEX {FHALEAN}","documentTypeId":4184},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Provider Agreements
+        {FHALEAN}","documentTypeId":4470},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Purchase
+        Agreement / Existing Deed {FHAMAP}","documentTypeId":4383},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Purchase and
+        Sale Agreement {FHALEAN}","documentTypeId":4449},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Radon Letter
+        {FHAMAP}","documentTypeId":4384},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Relocation
+        Plan {FHAMAP}","documentTypeId":4385},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Rendering
+        or Elevations {FHAMAP}","documentTypeId":4386},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Rent Roll {FHALEAN}","documentTypeId":4465},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Rent Roll {FHAMAP}","documentTypeId":4387},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"REO Debt Schedule
+        {FHAMAP}","documentTypeId":4388},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Replacement
+        Reserve Balance {FHALEAN}","documentTypeId":4445},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Resident Admissions
+        Agreement {FHALEAN}","documentTypeId":4469},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Risk Management Plan
+        {FHALEAN}","documentTypeId":4471},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Sample
+        Lease {FHAMAP}","documentTypeId":4389},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Section
+        220 {FHAMAP}","documentTypeId":4390},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Security
+        Agreement with Amendments {FHALEAN}","documentTypeId":4489},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Site Control
+        {FHAMAP}","documentTypeId":4391},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Site
+        Improvements {FHAMAP}","documentTypeId":4392},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"Site Plan {FHAMAP}","documentTypeId":4393},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"SNDA {FHALEAN}","documentTypeId":4246},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Soil Report and
+        Foundation Analysis {FHAMAP}","documentTypeId":4394},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Sprinkler System
+        Inspection {FHALEAN}","documentTypeId":4454},{"documentTypeGroup":"FHA LEAN
+        Documents","documentTypeGroupId":167,"documentTypeName":"Staffing Schedule
+        {FHALEAN}","documentTypeId":4458},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"State
+        Health Surveys {FHALEAN}","documentTypeId":4466},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Supplemental
+        Grants or Loans {FHAMAP}","documentTypeId":4395},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Tax Abatement
+        {FHAMAP}","documentTypeId":4396},{"documentTypeGroup":"FHA LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Tenant
+        Notice {FHALEAN}","documentTypeId":4193},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Title
+        Report {FHAMAP}","documentTypeId":4397},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Transit
+        Oriented Development {FHAMAP}","documentTypeId":4398},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"UCC-1 Filings
+        {FHALEAN}","documentTypeId":4481},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Unit
+        and Building Layouts {FHAMAP}","documentTypeId":4399},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Unit Delivery
+        and Lease up Schedule {FHAMAP}","documentTypeId":4400},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Unit Matrix {FHAMAP}","documentTypeId":4401},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Unit Mix {FHALEAN}","documentTypeId":4176},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Unit Plans {FHAMAP}","documentTypeId":4402},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Utilities {FHAMAP}","documentTypeId":4403},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Utility Assurance
+        Letters {FHAMAP}","documentTypeId":4404},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"VOD
+        {FHAMAP}","documentTypeId":4405},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Wall
+        Section Plan {FHAMAP}","documentTypeId":4406},{"documentTypeGroup":"FHA MAP
+        Documents","documentTypeGroupId":166,"documentTypeName":"WDO Report {FHAMAP}","documentTypeId":4407},{"documentTypeGroup":"FHA
+        MAP Documents","documentTypeGroupId":166,"documentTypeName":"Wetlands Delineation
+        Map {FHAMAP}","documentTypeId":4408},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"YTD
+        Property Financials {FHAMAP}","documentTypeId":4409},{"documentTypeGroup":"FHA
+        LEAN Documents","documentTypeGroupId":167,"documentTypeName":"Zoning Report
+        {FHALEAN}","documentTypeId":4452},{"documentTypeGroup":"FHA MAP Documents","documentTypeGroupId":166,"documentTypeName":"Zoning
+        Report {FHAMAP}","documentTypeId":4410}]'
+  recorded_at: Fri, 10 Feb 2023 14:30:02 GMT
+recorded_with: VCR 6.1.0

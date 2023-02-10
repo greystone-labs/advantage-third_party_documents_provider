@@ -1,0 +1,15 @@
+version: '3'
+networks:
+  advantage:
+
+services:
+  provider:
+    build: .
+    environment:
+      ONBASE_API_HOST: "${ONBASE_API_HOST}"
+      ONBASE_API_PORT: "${ONBASE_API_PORT}"
+      ONBASE_API_APIKEY: "${ONBASE_API_APIKEY}"
+    volumes:
+      - .:/app:Z
+    networks:
+      advantage:
