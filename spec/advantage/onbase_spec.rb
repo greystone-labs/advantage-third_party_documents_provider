@@ -1,4 +1,9 @@
 # frozen_string_literal: true
+def doc_type(name)
+  # fetch string between {}
+  regex = /\{(.*?)}/
+  name.slice(regex, 1)
+end
 
 RSpec.describe Advantage::ThirdPartyDocumentsProvider::Onbase do
   subject { described_class.new(host: "http://onbase:9090", api_key: "1234") }
@@ -12,6 +17,11 @@ RSpec.describe Advantage::ThirdPartyDocumentsProvider::Onbase do
 
         expect(response.first.keys).to eq(%w[documentTypeGroup documentTypeGroupId documentTypeName
                                              documentTypeId])
+
+        # NOTE: scripts that are helpful to get info about the response
+        # response.map{|r| r["documentTypeName"]}.uniq
+        # response.group_by { |i| i["documentTypeGroup"] } 
+        # response.group_by { |i| doc_type(i["documentTypeName"]) } 
       end
     end
   end
@@ -30,6 +40,9 @@ RSpec.describe Advantage::ThirdPartyDocumentsProvider::Onbase do
       VCR.use_cassette("upload_job") do
         response = subject.create_upload(document_type_name: document_type["documentTypeName"], keywords: keywords)
       end
+
+
+      document_type.deal_type.to eq ('FHA')
     end
   end
 end

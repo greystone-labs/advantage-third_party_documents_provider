@@ -1,6 +1,6 @@
 version: '3'
 networks:
-  advantage:
+  greystone:
 
 services:
   provider:
@@ -12,4 +12,4 @@ services:
     volumes:
       - .:/app:Z
     networks:
-      advantage:
+      greystone:
